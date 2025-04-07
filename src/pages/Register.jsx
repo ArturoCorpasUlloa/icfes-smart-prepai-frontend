@@ -11,7 +11,7 @@ const Register = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/users/register", {
+      await axios.post("https://icfes-smart-prepai-backend-production.up.railway.app/api/users/register", {
         nombre,
         correo,
         contrasena,
